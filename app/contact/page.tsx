@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
-
 const socials = [
   {
     icon: <Twitter size={20} />,
@@ -43,14 +42,14 @@ export default function Example() {
                   className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
                   aria-hidden="true"
                 />
-                <span className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-300 border rounded-full text-zinc-200 group-hover:text-white group-hover:bg-zinc-800 border-zinc-500 bg-zinc-900 group-hover:border-zinc-300 drop-shadow-orange transform transition-transform group-hover:scale-115">
+                <span className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-300 border rounded-full text-[#FF6900] group-hover:text-white group-hover:bg-zinc-800 border-zinc-500 bg-zinc-900 group-hover:border-zinc-300 drop-shadow-orange transform transition-transform group-hover:scale-115">
                   {s.icon}
                 </span>{" "}
                 <div className="z-10 flex flex-col items-center">
-                  <span className="lg:text-xl font-medium duration-300 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
+                  <span className="lg:text-xl font-medium duration-300 xl:text-3xl text-[#FF6900] group-hover:text-white font-display">
                     {s.handle}
                   </span>
-                  <span className="mt-4 text-sm text-center duration-300 text-zinc-400 group-hover:text-zinc-200">
+                  <span className="mt-4 text-sm text-center duration-300 text-zinc-400 group-hover:text-[#FF6900]">
                     {s.label}
                   </span>
                 </div>
